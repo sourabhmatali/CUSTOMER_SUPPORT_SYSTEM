@@ -1,0 +1,12 @@
+langchain_astradb
+pandas
+langchain_google_genai
+fastapi 
+uvicorn 
+python-multipart
+jinja2
+python-dotenv 
+langchain 
+langchain_core 
+
+-e . #it will execute setup.py file and find all the packages having __init__

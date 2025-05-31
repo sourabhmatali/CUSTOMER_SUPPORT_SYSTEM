@@ -1,0 +1,13 @@
+prefix=/Users/sourabhmatali/Desktop/CUSTOMER_SUPPORT_SYSTEM/env
+exec_prefix=/Users/sourabhmatali/Desktop/CUSTOMER_SUPPORT_SYSTEM/env
+libdir=/Users/sourabhmatali/Desktop/CUSTOMER_SUPPORT_SYSTEM/env/lib
+sharedlibdir=/Users/sourabhmatali/Desktop/CUSTOMER_SUPPORT_SYSTEM/env/lib
+includedir=/Users/sourabhmatali/Desktop/CUSTOMER_SUPPORT_SYSTEM/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
