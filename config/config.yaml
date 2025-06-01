@@ -1,0 +1,13 @@
+astra_db: #here initializing the VDB
+  collection_name: "ecommerce" #giving any name 
+
+embedding_model: #here initializing the embedding_model 
+  provider: "google" #provider is google 
+  model_name: "models/text-embedding-004" #here giving embedding model_name
+
+retriever: #here retriver means how much similar documents we want to fetch 
+  top_k: 2 #k=10 means 10 most similar
+
+llm: #here initializing the llm 
+  provider: "google" #model is from google 
+  model_name: "deepseek-r1-distill-llama-70b"   #here initializing the model_name
